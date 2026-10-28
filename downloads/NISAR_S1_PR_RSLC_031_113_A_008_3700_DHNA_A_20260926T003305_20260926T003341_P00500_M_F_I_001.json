@@ -1,0 +1,165 @@
+{
+  "stac_version": "1.0.0",
+  "assets": {
+    "metadata": {
+      "href": "https://bhoonidhi.nrsc.gov.in/stac/PRODUCTJPGS/NISAR/SSAR/2026/SEP/26/NISAR_S1_PR_RSLC_031_113_A_008_3700_DHNA_A_20260926T003305_20260926T003341_P00500_M_F_I_001.met",
+      "type": "application/json",
+      "title": "metadata",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://bhoonidhi.nrsc.gov.in/stac/PRODUCTJPGS/NISAR/SSAR/2026/SEP/26/NISAR_S1_PR_RSLC_031_113_A_008_3700_DHNA_A_20260926T003305_20260926T003341_P00500_M_F_I_001.jpg",
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "bbox": [
+    73.41340309,
+    14.19015159,
+    76.20296604,
+    11.47852215
+  ],
+  "links": [
+    {
+      "rel": "collection",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC/items/NISAR_S1_PR_RSLC_031_113_A_008_3700_DHNA_A_20260926T003305_20260926T003341_P00500_M_F_I_001"
+    }
+  ],
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          76.20296604,
+          12.00931709
+        ],
+        [
+          73.95931063,
+          11.47852215
+        ],
+        [
+          73.41340309,
+          13.64928743
+        ],
+        [
+          75.67714569,
+          14.19015159
+        ],
+        [
+          76.20296604,
+          12.00931709
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "id": "NISAR_S1_PR_RSLC_031_113_A_008_3700_DHNA_A_20260926T003305_20260926T003341_P00500_M_F_I_001",
+  "collection": "NISAR_SSAR_RSLC",
+  "type": "Feature",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "properties": {
+    "Polarization": "DH",
+    "Frame": 8,
+    "OBSID": "2026269003204",
+    "Platform": "NISAR",
+    "Node": "Ascending",
+    "DEMCorrection": "NA",
+    "InputResolutionAlong": 5.613724609,
+    "Dumping_Date": "26-SEP-2026",
+    "datetime": "2026-09-26T00:33:05Z",
+    "InputResolutionAcross": 6.003428505,
+    "GenerationTime": "2026-09-30T21:29:50",
+    "ID": "NISAR_S1_PR_RSLC_031_113_A_008_3700_DHNA_A_20260926T003305_20260926T003341_P00500_M_F_I_001",
+    "Scene_Identifier_Scheme": "ObsId_Track_Frame",
+    "ProductCode": "ST0000KED",
+    "Sat_Spec": "NISAR_SSAR_W",
+    "Dumping_Orbit": 6098,
+    "SceneCenterLon": 74.74045904,
+    "Mode": "W",
+    "IncidenceAngle": 41.74564817,
+    "RCID": 238,
+    "Coverage": "F",
+    "Look_dir": "Left",
+    "ImgLatLon": [
+      [
+        "76.20296604",
+        "12.00931709"
+      ],
+      [
+        "73.95931063",
+        "11.47852215"
+      ],
+      [
+        "73.41340309",
+        "13.64928743"
+      ],
+      [
+        "75.67714569",
+        "14.19015159"
+      ],
+      [
+        "76.20296604",
+        "12.00931709"
+      ]
+    ],
+    "SceneCenterLat": 12.81931129,
+    "SoftwareVersion": "1.4.00",
+    "Producer": "ISRO",
+    "DEMSource": "NA",
+    "CycleNumber": 31,
+    "SessionNumber": "2026269003056",
+    "Imaging_Orbit": 6094,
+    "Instrument": "SSAR",
+    "ProdLatLon": [
+      [
+        "76.20296604",
+        "12.00931709"
+      ],
+      [
+        "73.95931063",
+        "11.47852215"
+      ],
+      [
+        "73.41340309",
+        "13.64928743"
+      ],
+      [
+        "75.67714569",
+        "14.19015159"
+      ],
+      [
+        "76.20296604",
+        "12.00931709"
+      ]
+    ],
+    "Sat_Spec_Scheme": "SAT_SEN_MODE",
+    "AcquistionMode": "J",
+    "Online": "Y",
+    "updated": "2026-10-01 05:55:03",
+    "Scene_Identifier": "2026269003204_113_8",
+    "Track": 113,
+    "Imaging_Date": "26-SEP-2026"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "stac_version": "1.0.0",
+  "assets": {
+    "metadata": {
+      "type": "application/json",
+      "title": "metadata",
+      "href": "https://bhoonidhi.nrsc.gov.in/stac/PRODUCTJPGS/NISAR/SSAR/2026/SEP/30/NISAR_S1_PR_RSLC_032_005_D_082_2500_CRNA_A_20260930T132738_20260930T132814_P00500_M_F_I_001.met"
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "href": "https://bhoonidhi.nrsc.gov.in/stac/PRODUCTJPGS/NISAR/SSAR/2026/SEP/30/NISAR_S1_PR_RSLC_032_005_D_082_2500_CRNA_A_20260930T132738_20260930T132814_P00500_M_F_I_001.jpg"
+    },
+    "QAZIP": {
+      "type": "application/octet-stream",
+      "title": "QAZIP",
+      "href": "NISAR_S1_PR_RSLC_032_005_D_082_2500_CRNA_A_20260930T132738_20260930T132814_P00500_M_F_I_001_QA.zip"
+    },
+    "QAPDF": {
+      "type": "application/octet-stream",
+      "title": "QAPDF",
+      "href": "NISAR_S1_PR_RSLC_032_005_D_082_2500_CRNA_A_20260930T132738_20260930T132814_P00500_M_F_I_001_QA.pdf"
+    }
+  },
+  "bbox": [
+    74.26091605,
+    14.19036162,
+    77.0092708,
+    11.4906853
+  ],
+  "links": [
+    {
+      "rel": "collection",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC/items/NISAR_S1_PR_RSLC_032_005_D_082_2500_CRNA_A_20260930T132738_20260930T132814_P00500_M_F_I_001"
+    }
+  ],
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          74.79732621,
+          14.19036162
+        ],
+        [
+          77.0092708,
+          13.6618221
+        ],
+        [
+          76.4646535,
+          11.4906853
+        ],
+        [
+          74.26091605,
+          12.01204614
+        ],
+        [
+          74.79732621,
+          14.19036162
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "id": "NISAR_S1_PR_RSLC_032_005_D_082_2500_CRNA_A_20260930T132738_20260930T132814_P00500_M_F_I_001",
+  "collection": "NISAR_SSAR_RSLC",
+  "type": "Feature",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "properties": {
+    "Polarization": "CP",
+    "Frame": 82,
+    "OBSID": "2026273132336",
+    "Platform": "NISAR",
+    "Node": "Descending",
+    "DEMCorrection": "NA",
+    "InputResolutionAlong": 5.699245403,
+    "Dumping_Date": "30-SEP-2026",
+    "datetime": "2026-09-30T13:27:38Z",
+    "InputResolutionAcross": 8.998020873,
+    "GenerationTime": "2026-10-05T12:00:22",
+    "ID": "NISAR_S1_PR_RSLC_032_005_D_082_2500_CRNA_A_20260930T132738_20260930T132814_P00500_M_F_I_001",
+    "Scene_Identifier_Scheme": "ObsId_Track_Frame",
+    "ProductCode": "ST0000KED",
+    "Sat_Spec": "NISAR_SSAR_W",
+    "Dumping_Orbit": 6165,
+    "SceneCenterLon": 75.70787162,
+    "Mode": "W",
+    "IncidenceAngle": 41.78613054,
+    "RCID": 201,
+    "Coverage": "F",
+    "Look_dir": "Left",
+    "ImgLatLon": [
+      [
+        "74.79732621",
+        "14.19036162"
+      ],
+      [
+        "77.0092708",
+        "13.6618221"
+      ],
+      [
+        "76.4646535",
+        "11.4906853"
+      ],
+      [
+        "74.26091605",
+        "12.01204614"
+      ],
+      [
+        "74.79732621",
+        "14.19036162"
+      ]
+    ],
+    "SceneCenterLat": 12.82129132,
+    "SoftwareVersion": "1.4.00",
+    "Producer": "ISRO",
+    "DEMSource": "NA",
+    "CycleNumber": 32,
+    "SessionNumber": "2026273132152",
+    "Imaging_Orbit": 6159,
+    "Instrument": "SSAR",
+    "ProdLatLon": [
+      [
+        "74.79732621",
+        "14.19036162"
+      ],
+      [
+        "77.0092708",
+        "13.6618221"
+      ],
+      [
+        "76.4646535",
+        "11.4906853"
+      ],
+      [
+        "74.26091605",
+        "12.01204614"
+      ],
+      [
+        "74.79732621",
+        "14.19036162"
+      ]
+    ],
+    "Sat_Spec_Scheme": "SAT_SEN_MODE",
+    "AcquistionMode": "J",
+    "Online": "Y",
+    "updated": "2026-10-06 21:54:21",
+    "Scene_Identifier": "2026273132336_5_82",
+    "Track": 5,
+    "Imaging_Date": "30-SEP-2026"
+  }
+}

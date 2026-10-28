@@ -1,0 +1,159 @@
+{
+  "stac_version": "1.0.0",
+  "assets": {
+    "metadata": {
+      "type": "application/json",
+      "title": "metadata",
+      "href": "https://bhoonidhi.nrsc.gov.in/stac/PRODUCTJPGS/NISAR/SSAR/2026/SEP/18/NISAR_S1_PR_RSLC_031_005_D_082_2500_CRNA_A_20260918T132738_20260918T132814_P00500_M_F_I_001.met"
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "title": "thumbnail",
+      "href": "https://bhoonidhi.nrsc.gov.in/stac/PRODUCTJPGS/NISAR/SSAR/2026/SEP/18/NISAR_S1_PR_RSLC_031_005_D_082_2500_CRNA_A_20260918T132738_20260918T132814_P00500_M_F_I_001.jpg"
+    }
+  },
+  "bbox": [
+    74.26002836,
+    14.18649283,
+    77.00929165,
+    11.48652446
+  ],
+  "links": [
+    {
+      "rel": "collection",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/NISAR_SSAR_RSLC/items/NISAR_S1_PR_RSLC_031_005_D_082_2500_CRNA_A_20260918T132738_20260918T132814_P00500_M_F_I_001"
+    }
+  ],
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          74.79605066,
+          14.18649283
+        ],
+        [
+          77.00929165,
+          13.65762302
+        ],
+        [
+          76.46453531,
+          11.48652446
+        ],
+        [
+          74.26002836,
+          12.00808766
+        ],
+        [
+          74.79605066,
+          14.18649283
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "id": "NISAR_S1_PR_RSLC_031_005_D_082_2500_CRNA_A_20260918T132738_20260918T132814_P00500_M_F_I_001",
+  "collection": "NISAR_SSAR_RSLC",
+  "type": "Feature",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "properties": {
+    "Polarization": "CP",
+    "Frame": 82,
+    "OBSID": "2026261132156",
+    "Platform": "NISAR",
+    "Node": "Descending",
+    "DEMCorrection": "NA",
+    "InputResolutionAlong": 5.695401153,
+    "Dumping_Date": "18-SEP-2026",
+    "datetime": "2026-09-18T13:27:38Z",
+    "InputResolutionAcross": 8.997170486,
+    "GenerationTime": "2026-09-24T14:36:12",
+    "ID": "NISAR_S1_PR_RSLC_031_005_D_082_2500_CRNA_A_20260918T132738_20260918T132814_P00500_M_F_I_001",
+    "Scene_Identifier_Scheme": "ObsId_Track_Frame",
+    "ProductCode": "ST0000KED",
+    "Sat_Spec": "NISAR_SSAR_W",
+    "Dumping_Orbit": 5992,
+    "SceneCenterLon": 75.70714047,
+    "Mode": "W",
+    "IncidenceAngle": 41.79097032,
+    "RCID": 201,
+    "Coverage": "F",
+    "Look_dir": "Left",
+    "ImgLatLon": [
+      [
+        "74.79605066",
+        "14.18649283"
+      ],
+      [
+        "77.00929165",
+        "13.65762302"
+      ],
+      [
+        "76.46453531",
+        "11.48652446"
+      ],
+      [
+        "74.26002836",
+        "12.00808766"
+      ],
+      [
+        "74.79605066",
+        "14.18649283"
+      ]
+    ],
+    "SceneCenterLat": 12.817285,
+    "SoftwareVersion": "1.4.00",
+    "Producer": "ISRO",
+    "DEMSource": "NA",
+    "CycleNumber": 31,
+    "SessionNumber": "2026261132152",
+    "Imaging_Orbit": 5986,
+    "Instrument": "SSAR",
+    "ProdLatLon": [
+      [
+        "74.79605066",
+        "14.18649283"
+      ],
+      [
+        "77.00929165",
+        "13.65762302"
+      ],
+      [
+        "76.46453531",
+        "11.48652446"
+      ],
+      [
+        "74.26002836",
+        "12.00808766"
+      ],
+      [
+        "74.79605066",
+        "14.18649283"
+      ]
+    ],
+    "Sat_Spec_Scheme": "SAT_SEN_MODE",
+    "AcquistionMode": "J",
+    "Online": "Y",
+    "updated": "2026-09-25 02:56:04",
+    "Scene_Identifier": "2026261132156_5_82",
+    "Track": 5,
+    "Imaging_Date": "18-SEP-2026"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "target_structure": "Netravati Bridge (NH 66 / Southern Railway)",
+  "coordinates": {
+    "latitude": 12.8391,
+    "longitude": 74.8601
+  },
+  "bbox_used": [
+    74.8592,
+    12.8351,
+    74.861,
+    12.8431
+  ],
+  "total_scenes_analyzed": 3,
+  "monitoring_period": "2026-09-06 to 2026-09-26",
+  "mean_incidence_deg": 41.77,
+  "platforms_used": [
+    "NISAR"
+  ],
+  "data_source": "SIMULATED",
+  "phase_data_used": false,
+  "insar_pairs_processed": 0,
+  "radar_wavelength_m": 0.0937,
+  "mean_annual_velocity_mm_yr": -1.18,
+  "total_cumulative_displacement_mm": 0.05,
+  "measurement_error_mm": 0.41,
+  "health_status": "GREEN - STABLE / NORMAL AGING",
+  "action_recommendation": "Routine maintenance; continue satellite monitoring every 6 months."
+}
